@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "bitset": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "ranges": "cpp",
+        "utility": "cpp",
+        "string": "cpp",
+        "iostream": "cpp",
+        "point_cloud2__struct.h": "c",
+        "point_field.h": "c",
+        "point_field__functions.h": "c",
+        "point_field__struct.h": "c",
+        "point_field__type_support.h": "c",
+        "*.txx": "c",
+        "chrono": "cpp"
+    },
+    "cmake.configureSettings": { "gtest_build_samples": "ON" }
+}
