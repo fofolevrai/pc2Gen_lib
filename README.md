@@ -1,14 +1,12 @@
 <p align="center">
-<img src=".images/pc2Gen_logo.jpg" width=300 height=300>
+<img src=".images/pc2GenAPI_logo.jpg" width=300 height=300>
 </p>
 
 # Description
 
-From expensive [LiDAR](https://en.wikipedia.org/wiki/Lidar) to entry-level [Time-Of-Flight (TOF)](https://en.wikipedia.org/wiki/Time-of-flight_camera) cameras, point clouds data and its ROS2 structured [sensor_msgs/PointCloud2](https://docs.ros.org/en/ros2_packages/rolling/api/sensor_msgs/interfaces/msg/PointCloud2.html) message are nowadays a need for environnement sensing. Due to sensor diversity, understanding and configuring highly customable [sensor_msgs/PointCloud2](https://docs.ros.org/en/ros2_packages/rolling/api/sensor_msgs/interfaces/msg/PointCloud2.html) could be headache and time consuming.
+**Pc2Gen API aims to lower time and code complexity of [sensor_msgs/PointCloud2](https://docs.ros.org/en/ros2_packages/rolling/api/sensor_msgs/interfaces/msg/PointCloud2.html) integration** within [ROS2](https://docs.ros.org/en/rolling/index.html) or [micro-ros](https://micro.ros.org) project. It also features [sensor_msgs/PointCloud2](https://docs.ros.org/en/ros2_packages/rolling/api/sensor_msgs/interfaces/msg/PointCloud2.html) manipulation functions.
 
-**Pc2Gen API aims to lower time and code complexity of [sensor_msgs/PointCloud2](https://docs.ros.org/en/ros2_packages/rolling/api/sensor_msgs/interfaces/msg/PointCloud2.html) integration** within [ROS2](https://docs.ros.org/en/rolling/index.html) or [micro-ros](https://micro.ros.org) project by generating, from input descriptions, the relative C code allowing direct message creation and manipulation.
-
-# API usage
+# Library usage
 
 **1. Instanciation**
 
@@ -45,10 +43,13 @@ Feed the message with your sensor data :
 cloud.data.data = my_xyz_sensor_data;
 ```
 
-## Compile your code
+## Compile library
 
-This step consists of ROS/ROS2 [package](https://docs.ros.org/en/rolling/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html) creation.
-# Test
+From your ROS workspace, run the following shell command :
+```bash
+colcon build --packages-select c_pc2_iterator
+```
+# Test library
 
 From your ROS workspace, run the following shell command :
 
