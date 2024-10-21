@@ -43,7 +43,7 @@ Feed the message with your sensor data :
 cloud.data.data = my_xyz_sensor_data;
 ```
 
-## Compile library
+# Compile library
 
 From your ROS workspace, run the following shell command :
 ```bash
@@ -73,12 +73,12 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## Authors
+# Authors
 
 * [@fofolevrai](https://github.com/fofolevrai)
 
 
 
-## License
+# License
 
 This project is provided under the [BSD-3](https://opensource.org/license/bsd-3-clause) License - see the [LICENCE.md](LICENCE.md) file for details
