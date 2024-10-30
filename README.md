@@ -4,7 +4,7 @@
 
 # Description
 
-**Pc2Gen API aims to lower time and code complexity of [sensor_msgs/PointCloud2](https://docs.ros.org/en/ros2_packages/rolling/api/sensor_msgs/interfaces/msg/PointCloud2.html) integration** within [ROS2](https://docs.ros.org/en/rolling/index.html) or [micro-ros](https://micro.ros.org) project. It also features [sensor_msgs/PointCloud2](https://docs.ros.org/en/ros2_packages/rolling/api/sensor_msgs/interfaces/msg/PointCloud2.html) manipulation functions.
+**Pc2Gen library aims to lower time and code complexity of [sensor_msgs/PointCloud2](https://docs.ros.org/en/ros2_packages/rolling/api/sensor_msgs/interfaces/msg/PointCloud2.html) integration** within [ROS2](https://docs.ros.org/en/rolling/index.html) or [micro-ros](https://micro.ros.org) project. It also features [sensor_msgs/PointCloud2](https://docs.ros.org/en/ros2_packages/rolling/api/sensor_msgs/interfaces/msg/PointCloud2.html) manipulation functions.
 
 # Library usage
 
@@ -59,7 +59,7 @@ colcon test --packages-select c_pc2_iterator --event-handlers console_direct+
 
 # Issue
 
-If you find issue(s), please report to the [dedicated tumb](https://github.com/fofolevrai/pc2Gen_API/issues)
+If you find issue(s), please report to the [dedicated tumb](https://github.com/fofolevrai/pc2Gen_lib/issues)
 # Contribute
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
